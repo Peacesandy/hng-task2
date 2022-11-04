@@ -36,7 +36,7 @@ import React, {useState} from 'react'
   return (
     <div className='section'>
             <div className="header">
-                <h2>Contact</h2>
+                <h2>Contact Me</h2>
                 <p>Hi there,  contact me to ask me about anything you have in mind.</p>
             </div>
 

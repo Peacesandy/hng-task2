@@ -349,4 +349,41 @@ body {
   .desktop {
     display: none;
   }
+
+  .section .section__header {
+    margin-bottom: 2rem;
+
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .section .section__form .input50 {
+    flex-direction: column;
+  }
+
+  .section .section__form .input50 .form__group {
+    width: 100%;
+  }
+
+  .section .section__form .input50 .form__group:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .section .section__form .input50 .form__group:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .section .section__form .input50 .form__group:nth-child(2) {
+    margin-left: 0;
+  }
 }
+
