@@ -1,12 +1,16 @@
-
-import './App.css';
+import Footer from './components/Footer';
+import './index.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-       <h1>Contact Page</h1>
-    </div>
+    < >
+      <Home />
+      <Footer />
+    </>
   );
 }
 
 export default App;
+
+
